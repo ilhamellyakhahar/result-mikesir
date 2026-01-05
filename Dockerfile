@@ -19,6 +19,7 @@ RUN npm ci && \
 COPY . .
 
 ENV PORT=80
+ENV PGSQLPASS=ilham121231nsadada
 EXPOSE 80
 
 ENTRYPOINT ["/usr/bin/tini", "--"]
